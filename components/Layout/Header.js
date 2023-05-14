@@ -50,9 +50,9 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                             </li>
                                     </ul>
                                 </li> */}
-                                <li>
+                                {/* <li>
                                     <Link legacyBehavior href="/about"><a>About</a></Link>
-                                </li>
+                                </li> */}
                                 {/* <li>
                                     <Link legacyBehavior href="/page-contact"><a>Contact</a></Link>
                                 </li> */}
@@ -66,7 +66,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                             <div className="block-signin">
                                 {/* <Link legacyBehavior href="page-register"><a className="text-link-bd-btom hover-up">Hire Talent</a></Link> */}
 
-                                <Link legacyBehavior href="page-signin"><a className="btn btn-default btn-shadow ml-40 hover-up">Let's Start</a></Link>
+                                <Link legacyBehavior href="https://forms.gle/FUQunWLRKrvdrx959"><a className="btn btn-default btn-shadow ml-40 hover-up">Let's Start</a></Link>
                             </div>
                         </div>
                     </div>
