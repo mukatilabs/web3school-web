@@ -32,6 +32,7 @@ function PageHead({ headTitle }) {
             </Head>
 
 
+
         </>
     );
 }
