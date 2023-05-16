@@ -33,9 +33,10 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                     <a className="btn-default">Learn</a>
                                     <ul className="sub-menu">
                                             <li>
-                                                <Link legacyBehavior href="/"><a>MasterClasses</a></Link>
-                                                <Link legacyBehavior href="/"><a>Workshops</a></Link>
-                                                <Link legacyBehavior href="/"><a>Courses</a></Link>
+                                                <Link legacyBehavior href="/learn"><a>MasterClasses</a></Link>
+                                                <Link legacyBehavior href="/learn"><a>Workshops</a></Link>
+                                                <Link legacyBehavior href="/learn"><a>Courses</a></Link>
+                                                <Link legacyBehavior href="/learn"><a>FellowShips</a></Link>
                                             </li>
                                     </ul>
                                 </li>

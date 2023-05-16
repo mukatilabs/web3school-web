@@ -24,7 +24,7 @@ export default function Home() {
                       The Future of the Internet
                     </h1>
                     <p className="font-lg color-text-paragraph mt-20">
-                    Get learning, Build dApps, Get Certified &amp; Get Hired
+                    Get learning, Build and Deploy dApps &amp; Get Hired
                     </p>
                     <div className="mt-30">
                       <a
@@ -50,22 +50,22 @@ export default function Home() {
                     <a>zkProofs, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>Web, </a>
+                    <a>DeFi, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>IOS, </a>
+                    <a>NFTs, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>Developer, </a>
+                    <a>Web3 gaming, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>PHP, </a>
+                    <a>Web3 social media, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>Senior, </a>
+                    <a>Web3 security, </a>
                   </Link>
                   <Link legacyBehavior href="#">
-                    <a>Engineer, </a>
+                    <a>Web3 adoption, </a>
                   </Link>
                 </div>
               </div>
@@ -86,15 +86,15 @@ export default function Home() {
                             </div>
                             <div className="col-lg-6 col-sm-12">
                                 <div className="content-job-inner">
-                                    <span className="color-text-mutted text-32">Millions Of Jobs. </span>
+                                    <span className="color-text-mutted text-32">What We Do </span>
                                     <h2 className="text-52 wow animate__animated animate__fadeInUp">
-                                        Find The One That’s <span className="color-brand-2">Right</span> For You
+                                        We help Learners to upgrad themself to <span className="color-brand-2">Web3</span> ecosystem.
                                     </h2>
-                                    <div className="mt-40 pr-50 text-md-lh28 wow animate__animated animate__fadeInUp">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</div>
+                                    <div className="mt-40 pr-50 text-md-lh28 wow animate__animated animate__fadeInUp">Check out upcomimg Masterclasses, Workshops and Fellowship programs.</div>
                                     <div className="mt-40">
                                         <div className="wow animate__animated animate__fadeInUp">
-                                            <Link legacyBehavior href="/jobs-grid">
-                                                <a className="btn btn-default">Search Jobs</a>
+                                            <Link legacyBehavior href="#events">
+                                                <a className="btn btn-default">Upcomimg Learning Series</a>
                                             </Link>
 
                                             <Link legacyBehavior href="/page-about">
@@ -111,7 +111,7 @@ export default function Home() {
                         <div className="container">
                             <div className="text-start">
                                 <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">How It Works</h2>
-                                <p className="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Just via some simple steps, you will find your ideal candidates you are looking for!</p>
+                                <p className="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Just via some simple steps, you will find be able to upgrad yourself to Web3!</p>
                             </div>
                             <div className="mt-70">
                                 <div className="row">
@@ -169,7 +169,7 @@ export default function Home() {
                     </section>
  
 
-                    <section className="section-box mt-50 mb-30 bg-brand-2 pt-60 pb-60">
+                    <section id="events" className="section-box mt-50 mb-30 bg-brand-2 pt-60 pb-60">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-5">
