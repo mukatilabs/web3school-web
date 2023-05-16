@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="footer-col-1 col-md-3 col-sm-12">
-                        <h3>Let's Connect</h3>
-                        {/* <Link legacyBehavior href="/"><a><img alt="Let's Connect" src="assets/imgs/template/logo" /></a></Link> */}
+                        
+                        <Link legacyBehavior href="/"><a><img alt="Let's Connect" src="assets/imgs/template/logo.svg" /></a></Link>
                         <div className="mt-20 mb-20 font-xs color-text-paragraph-2">If you have any Idea to be discuss or Need Blockchain Consultation else want to upskill your workforce in Blockchain.</div>
                         <div className="footer-social">
                             <a className="icon-socials icon-linkedin" href="https://www.linkedin.com/in/dayal-mukati/" />
