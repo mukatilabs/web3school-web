@@ -27,9 +27,9 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                             <nav className="nav-main-menu">
                                 <ul className="main-menu">
                                 <li >
-                                    <Link legacyBehavior href="/web3-blockchain-masterclass"><a>Web3 & Blockchain MasterClass</a></Link>
+                                    <Link legacyBehavior href="/web3-blockchain-masterclass"><a></a></Link>
                                 </li>
-                                <li className="has-children">
+                                {/* <li className="has-children">
                                     <a className="btn-default">Learn</a>
                                     <ul className="sub-menu">
                                             <li>
@@ -39,8 +39,8 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 <Link legacyBehavior href="/learn"><a>FellowShips</a></Link>
                                             </li>
                                     </ul>
-                                </li>
-                                <li className="has-children">
+                                </li> */}
+                                {/* <li className="has-children">
                                     <Link legacyBehavior href="/hire-as-consultant"><a>Evaluate</a></Link>
                                     <ul className="sub-menu">
                                             <li>
@@ -50,10 +50,10 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 <Link legacyBehavior href="/"><a>Smart Contract Developer</a></Link>
                                             </li>
                                     </ul>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/hire-as-trainer"><a>About</a></Link>
-                                </li>
+                                </li> */}
+                                {/* <li>
+                                    <Link legacyBehavior href="/about"><a>About</a></Link>
+                                </li> */}
                                 {/* <li>
                                     <Link legacyBehavior href="/page-contact"><a>Contact</a></Link>
                                 </li> */}
@@ -65,9 +65,9 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         </div>
                         <div className="header-right">
                             <div className="block-signin">
-                                <Link legacyBehavior href="page-register"><a className="text-link-bd-btom hover-up">Hire Talent</a></Link>
+                                {/* <Link legacyBehavior href="page-register"><a className="text-link-bd-btom hover-up">Hire Talent</a></Link> */}
 
-                                <Link legacyBehavior href="page-signin"><a className="btn btn-default btn-shadow ml-40 hover-up">Sign in</a></Link>
+                                <Link legacyBehavior href="https://forms.gle/FUQunWLRKrvdrx959"><a className="btn btn-default btn-shadow ml-40 hover-up">Let's Start</a></Link>
                             </div>
                         </div>
                     </div>
