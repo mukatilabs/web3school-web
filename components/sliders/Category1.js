@@ -7,32 +7,27 @@ SwiperCore.use([Navigation]);
 const data = [
     {
         img: "img-big1.png",
-        title: "Software",
-        count: 55
+        title: "MasterClasses",
+        count: 3
     },
     {
         img: "img-big2.png",
-        title: "Finance",
+        title: "WorkShops",
         count: 35
     },
     {
         img: "img-big3.png",
-        title: "Recruting",
+        title: "Courses",
         count: 20
     },
     {
         img: "img-big1.png",
-        title: "Management",
+        title: "Hackathon",
         count: 15
     },
     {
         img: "img-big2.png",
-        title: "Advertising",
-        count: 10
-    },
-    {
-        img: "img-big3.png",
-        title: "Advertising",
+        title: "Fellowships",
         count: 10
     }
 ];
@@ -77,14 +72,14 @@ const CategorySlider4 = () => {
                         <SwiperSlide key={i}>
                             <div className="swiper-slide hover-up">
                                 <div className="card-grid-5 card-category hover-up" style={{ backgroundImage: `url(assets/imgs/page/homepage2/${item.img})` }}>
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/learn">
                                         <a>
                                             <div className="box-cover-img">
                                                 <div className="content-bottom">
                                                     <h6 className="color-white mb-5">{item.title}</h6>
                                                     <p className="color-white font-xs">
                                                         <span>{item.count}</span>
-                                                        <span> Jobs Available</span>
+                                                        <span> Available</span>
                                                     </p>
                                                 </div>
                                             </div>

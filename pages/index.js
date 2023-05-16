@@ -4,7 +4,7 @@ import Link from "next/link";
 import Layout from "../components/Layout/Layout";
 import BrandSlider2 from "./../components/sliders/Brand2";
 import CategoryTab2 from "../components/elements/CategoryTab2";
-import CategorySlider4 from "../components/sliders/Category4";
+import CategorySlider1 from "../components/sliders/Category1";
 
 export default function Home() {
   return (
@@ -77,10 +77,10 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-6 col-sm-12">
                                 <div className="box-image-job">
-                                    <img className="img-job-1" alt="jobBox" src="assets/imgs/page/homepage1/img-chart.png" />
-                                    <img className="img-job-2" alt="jobBox" src="assets/imgs/page/homepage1/controlcard.png" />
+                                    <img className="img-job-1" alt="jobBox" src="assets/imgs/page/about-bg1.png" />
+                                    {/* <img className="img-job-2" alt="jobBox" src="assets/imgs/page/homepage1/controlcard.png" /> */}
                                     <figure className="wow animate__animated animate__fadeIn">
-                                        <img alt="jobBox" src="assets/imgs/page/homepage1/img1.png" />
+                                        <img alt="web3school" src="assets/imgs/page/about-bg.svg" />
                                     </figure>
                                 </div>
                             </div>
@@ -119,14 +119,14 @@ export default function Home() {
                                         <div className="box-step step-1">
                                             <h1 className="number-element">1</h1>
                                             <h4 className="mb-20">
-                                                Register an
+                                                Register and Learn
                                                 <br className="d-none d-lg-block" />
-                                                account to start
+                                                Web3 Tech
                                             </h4>
                                             <p className="font-lg color-text-paragraph-2">
-                                                Lorem ipsum dolor sit amet,
+                                                Be part of our learning series,
                                                 <br className="d-none d-lg-block" />
-                                                consectetur adipisicing elit, sed do{" "}
+                                                Masterclasses, Workshops and Fellowships{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -134,14 +134,14 @@ export default function Home() {
                                         <div className="box-step step-2">
                                             <h1 className="number-element">2</h1>
                                             <h4 className="mb-20">
-                                                Explore over
+                                                Build & Deploy dApps
                                                 <br className="d-none d-lg-block" />
-                                                thousands of resumes
+                                                Get Certified
                                             </h4>
                                             <p className="font-lg color-text-paragraph-2">
-                                                Lorem ipsum dolor sit amet,
+                                                build the dapps and deploy them on chains,
                                                 <br className="d-none d-lg-block" />
-                                                consectetur adipisicing elit, sed do{" "}
+                                                evaluate yourself and get NFT based certificates{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -149,21 +149,21 @@ export default function Home() {
                                         <div className="box-step">
                                             <h1 className="number-element">3</h1>
                                             <h4 className="mb-20">
-                                                Find the most
+                                                Find Your Next Job
                                                 <br className="d-none d-lg-block" />
-                                                suitable candidate
+                                                in Web3 ecosystem
                                             </h4>
                                             <p className="font-lg color-text-paragraph-2">
-                                                Lorem ipsum dolor sit amet,
+                                                Get access to Job Portal,
                                                 <br className="d-none d-lg-block" />
-                                                consectetur adipisicing elit, sed do{" "}
+                                                Where Top Web3 companies are waiting for you{" "}
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="mt-50 text-center">
-                                <a className="btn btn-default">Get Started</a>
+                                <a className="btn btn-default" href="#events">Get Started</a>
                             </div>
                         </div>
                     </section>
@@ -174,7 +174,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-xl-5">
                                     <div className="pt-70">
-                                        <h2 className="color-black mb-20">Explore the Marketplace</h2>
+                                        <h2 className="color-black mb-20">Explore Our Learning Series</h2>
                                         <p className="color-black mb-30">Search and connect with the right candidates faster. Tell us what you are looking for and we will get to work for you.</p>
                                         <div className="mt-20">
                                             <a className="btn btn-brand-1 btn-icon-more hover-up">Explore</a>
@@ -183,7 +183,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-xl-7">
                                     <div className="box-swiper mt-50 layout-brand-1">
-                                        <CategorySlider4 />
+                                        <CategorySlider1 />
                                     </div>
                                 </div>
                             </div>
