@@ -29,7 +29,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                 <li >
                                     <Link legacyBehavior href="/web3-blockchain-masterclass"><a></a></Link>
                                 </li>
-                                {/* <li className="has-children">
+                                <li className="has-children">
                                     <a className="btn-default">Learn</a>
                                     <ul className="sub-menu">
                                             <li>
@@ -39,8 +39,8 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 <Link legacyBehavior href="/learn"><a>FellowShips</a></Link>
                                             </li>
                                     </ul>
-                                </li> */}
-                                {/* <li className="has-children">
+                                </li>
+                                <li className="has-children">
                                     <Link legacyBehavior href="/hire-as-consultant"><a>Evaluate</a></Link>
                                     <ul className="sub-menu">
                                             <li>
@@ -50,13 +50,13 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 <Link legacyBehavior href="/"><a>Smart Contract Developer</a></Link>
                                             </li>
                                     </ul>
-                                </li> */}
-                                {/* <li>
+                                </li>
+                                <li>
                                     <Link legacyBehavior href="/about"><a>About</a></Link>
-                                </li> */}
-                                {/* <li>
+                                </li>
+                                <li>
                                     <Link legacyBehavior href="/page-contact"><a>Contact</a></Link>
-                                </li> */}
+                                </li>
                                 </ul>
                             </nav>
                             <div className={`burger-icon burger-icon-white ${openClass && "burger-close"}`} 
